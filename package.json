@@ -1,0 +1,25 @@
+{
+  "name": "mpu6050-wiringpi",
+  "version": "0.0.1",
+  "description": "Module to read from the MPU-6050 Accelerometer",
+  "main": "src/mpu6050-wiringpi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "wiring-pi": ">=2.1.1"
+  },
+  "keywords": [
+    "MPU-6050",
+    "MPU6050",
+    "node.js",
+    "accelerometer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkolban/node-mpu6050-wiringpi.git"
+  },
+  "author": "Neil Kolban",
+  "license": "BSD",
+  "readmeFilename": "Readme.md"
+}
