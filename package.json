@@ -1,6 +1,6 @@
 {
   "name": "mpu6050-wiringpi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Module to read from the MPU-6050 Accelerometer",
   "main": "src/mpu6050-wiringpi.js",
   "scripts": {

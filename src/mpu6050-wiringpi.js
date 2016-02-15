@@ -20,8 +20,8 @@ var MPU6050_REG_DATA_START = (0x3b)
 
 var wpi = require('wiring-pi');
 wpi.setup('wpi');
-wpi.wiringPiI2CWriteReg8(fd, MPU6050_REG_PWR_MGMT_1, 0);
 var fd = wpi.wiringPiI2CSetup(MPU6050_ADDRESS);
+wpi.wiringPiI2CWriteReg8(fd, MPU6050_REG_PWR_MGMT_1, 0);
 
 exports.read = function() {
   var msb = wpi.wiringPiI2CReadReg8(fd, MPU6050_REG_DATA_START);
